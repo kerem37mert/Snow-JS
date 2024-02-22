@@ -37,5 +37,4 @@ const moveSnow = (snow) => {
     }, 100);
 }
 
-randomSize();
 setInterval(() => moveSnow(createSnow()), 250);
